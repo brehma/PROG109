@@ -1,3 +1,9 @@
+h1 {
+   font-family: 'KlaudiaBookOblique';
+   font-weight: normal;
+   font-style: italic;
+}
+
 .row{
 position:relative;
 margin-left:10%;
@@ -20,5 +26,8 @@ background-color:#787878;
 float:left;
 }
 
+body {
+ background-image:url("https://images.pexels.com/photos/4612307/pexels-photo-4612307.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
 
 .clear{clear:both;}
