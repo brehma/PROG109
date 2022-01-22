@@ -39,10 +39,10 @@ body {
  background-image:url("https://images.pexels.com/photos/4612307/pexels-photo-4612307.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
-.footer {
+footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: #D8CABE;
   color: white;
 }
 .clear{clear:both;}
