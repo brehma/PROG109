@@ -6,7 +6,7 @@
   font-size: 15px;
 }
 
-.h1 {
+h1 {
    text-align: center;
    font-family: 'KlaudiaBookOblique';
    font-weight: normal;
@@ -35,7 +35,7 @@ background-color:#787878;
 float:left;
 }
 
-.body {
+body {
  background-image:url("https://images.pexels.com/photos/4612307/pexels-photo-4612307.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
