@@ -18,7 +18,7 @@
 				margin: 1%;}
 			.column3 {
 				margin-right: 0%;
-				background-color: #1ecbe1;}
+				}
 			li {
 				display: inline;
 				padding: 0.5em;}
@@ -35,3 +35,5 @@ h1 {text-align: center;
    font-weight: normal;
    font-style: italic;
 }
+
+.header{background-color: #1ecbe1;}
