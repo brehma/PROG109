@@ -1,4 +1,4 @@
-* {
+ {
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;
 	text-align: center;}
@@ -7,11 +7,11 @@ body {
 	width: 90%;
 	margin: 0 auto;}
 
-#content {
+content {
 	overflow: auto;}
 
 			
-#nav, #feature, #footer {
+nav, feature, footer {
 	margin: 1%;}
 
 .column1, .column2, .column3 {
@@ -26,12 +26,11 @@ li {
 	display: inline;
 	padding: 0.5em;}
 
-#nav, #footer {
+nav, footer {
 	background-color: #efefef;
 	padding: 0.5em 0;}
 
-#feature, .article {
+feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #efefef;}
-</style>
