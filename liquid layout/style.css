@@ -6,7 +6,7 @@
 			body {
 				width: 90%;
 				margin: 0 auto;
-				background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pink-flowering-roses-1598016799.jpg?crop=0.668xw:1.00xh;0.171xw,0&resize=640:*") alt= Flowers
+				background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pink-flowering-roses-1598016799.jpg?crop=0.668xw:1.00xh;0.171xw,0&resize=640:*");
 }
 			#content {
 				overflow: auto;}
@@ -17,7 +17,8 @@
 				float: left;
 				margin: 1%;}
 			.column3 {
-				margin-right: 0%;}
+				margin-right: 0%;
+				background-color: #1ecbe1;}
 			li {
 				display: inline;
 				padding: 0.5em;}
@@ -28,4 +29,3 @@
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: #efefef;}
-header{background-color: #1ecbe1;}
