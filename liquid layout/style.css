@@ -5,7 +5,9 @@
 
 			body {
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+				background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pink-flowering-roses-1598016799.jpg?crop=0.668xw:1.00xh;0.171xw,0&resize=640:*") alt= Flowers
+}
 			#content {
 				overflow: auto;}
 			#nav, #feature, #footer {
@@ -26,4 +28,4 @@
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: #efefef;}
-.header{background-color: #1ecbe1;}
+header{background-color: #1ecbe1;}
