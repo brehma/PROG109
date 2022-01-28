@@ -1,6 +1,6 @@
 * {
 				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
+				color: #000203;
 				text-align: center;}
 
 			body {
@@ -28,7 +28,6 @@
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: #1ecbe1;
 				}
 
 h1 {text-align: center;
@@ -36,3 +35,8 @@ h1 {text-align: center;
    font-weight: normal;
    font-style: italic;
 }
+
+#feature {background-color: #FADCD9;}
+.column1 {background-color: #ECF87F;}
+.column2 {background-color: #D4F1F4;}
+.column3 {background-color: #FFCD58;}
