@@ -6,13 +6,13 @@ var el = document.getElementById('blackboard');
 el.innerHTML = msg;
 
 if (operator === 'multiplication') {
-  // Do multiplication
+   Do multiplication
   while (i < 11) {
     msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
 } else {
-  // Do addition
+  Do addition
   while (i < 11) {
     msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
     i++;
