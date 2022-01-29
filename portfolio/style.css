@@ -1,29 +1,38 @@
+#header {
+  margin-bottom: 100px;
+  padding: 10px;
+  text-align: center;
+  background: #D8CABE;
+  color: white;
+  font-size: 15px;
+}
 
-			* {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
-			.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;}
-			.column3 {
-				margin-right: 0%;}
-			li {
-				display: inline;
-				padding: 0.5em;}
+h1 {
+   text-align: center;
+   font-family: 'KlaudiaBookOblique';
+   font-weight: normal;
+   font-style: italic;
+}
+
+body {
+	background-image: url("../images/stripes.jpg");
+  	background-color: #cccccc;
+	width: 90%;
+	margin: 0 auto;}
+
+#content {
+	overflow: auto;}
+
+#nav, #footer {
+	margin: 1%;}
+		
+li {
+	display: inline;
+	padding: 0.5em;}
+
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
-			#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
+
+			
 		
