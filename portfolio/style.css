@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-	background-image: url("../images/stripes.jpg");
+	background-image: url("images/stripes.jpg");
   	background-color: #cccccc;
 	width: 90%;
 	margin: 0 auto;}
@@ -30,9 +30,9 @@ li {
 	display: inline;
 	padding: 0.5em;}
 
-			#nav, #footer {
-				background-color: #efefef;
-				padding: 0.5em 0;}
+#nav, #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;}
 
 			
 		
