@@ -1,5 +1,4 @@
 function myFunction() {
-  var text;
   var table = prompt("Please enter you value here:");
   document.getElementById('blackboard'); 
   var operator = 'multiplication'; // Type of calculation
