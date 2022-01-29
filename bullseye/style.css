@@ -8,7 +8,6 @@ body {
 	margin: 0px 0px 0px 0px;}
 
 h1 {
-	background-image: url("../bullseye/images/bullseye.png" alt= "bullseye" width="50" height="50");
 	background-repeat: no-repeat;
 	text-indent: 100%;
 	white-space: nowrap;
@@ -24,12 +23,10 @@ h1 {
 	float:right;
 	margin:135px 30px 0px 0px;}
 
-#page1, #page2 {
-	background-color: #fecc6f;
-	height: 596px;
-	padding: 10px;
-	min-width: 779px;}
 #page2 {
+	background-color: #fecc6f;
+	padding: 10px;
+	min-width: 779px;
 	height: 730px;}
 
 #answer {
