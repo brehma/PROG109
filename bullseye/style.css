@@ -3,12 +3,11 @@
 body {
 	background-color: #523620;
 	color: #fff;
-	font-family: 'Wellfleet', times, serif;
-	font-size: 150%;
 	margin: 0px 0px 0px 0px;}
 
 h1 {
-	background-repeat: no-repeat;
+	font-family: 'Wellfleet', times, serif;
+	font-size: 150%;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
