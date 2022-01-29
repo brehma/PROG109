@@ -4,10 +4,10 @@ function myFunction() {
   var operator = 'multiplication'; // Type of calculation
   var i = 1;                 // Set counter to 1
   var msg = <h2>"Multiplcation Table"</h2>;              // Message
-
+  }
 if (operator === 'multiplication') {
    //Do multiplication
-  do (i < 11) {
+  while (i < 11) {
     msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
