@@ -8,12 +8,7 @@ h1 {
 	font-family: 'Wellfleet', times, serif;
 	font-size: 100%;
 	color: #FFFAFA;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	height: 109px;
-	width: 643px;
-	margin: 40px auto;}
+	}
 
 #page1, #page2 {
 	background-color: #fecc6f;
