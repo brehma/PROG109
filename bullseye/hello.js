@@ -1,25 +1,14 @@
-function myFunction() {
-  let table= prompt("Please enter your value here:");           // Unit of table
-  if (table != null) {
-    document.getElementById('blackboard').innerHTML = el.innerHTML = msg; 
-    let msg = '<h2>Multiplication Table</h2>';                              // Message
-let operator = 'multiplication';                                   // Type of calculation
-let i = 1;                                                // Set counter to 1
+// program to generate a multiplication table
 
+// take input from the user
+const number = parseInt(prompt('Enter an integer: '));
 
-if (operator === 'multiplication') {
-  // Do multiplication
-  while (i < 11) {
-    msg += i * ' x ' * table * ' = ' + (i * table) + '<br />';
-    i*;
-  }
-} else {
-  // Do addition
-  while (i < 11) {
-    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-    i++;
-  }
+//creating a multiplication table
+for(let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * number;
+
+    // display the result
+    console.log(`${number} * ${i} = ${result}`);
 }
-
-
-
