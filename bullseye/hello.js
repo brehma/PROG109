@@ -5,11 +5,11 @@ var msg = '<h2>Multiplication Table</h2>';              // Message
 var el = document.getElementById('blackboard');
 el.innerHTML = msg;
 
-if (operator === 'multiplication') {
+if (operator === 'addition') {
   // Do addition
   while (i < 11) {
-    msg += i * ' x ' + table + ' = ' + (i + table) + '<br />';
-    i*;
+    msg += i + ' x ' + table + ' = ' + (i + table) + '<br />';
+    i++;
   }
 } else {
   // Do multiplication
