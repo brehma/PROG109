@@ -3,7 +3,7 @@ let myNumber = prompt("Please enter your value:")   // Unit of table
 
 
 var table = myNumber;
-var operator = 'multiplication' // Type of calculation
+var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '';              // Message
 
