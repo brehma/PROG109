@@ -6,8 +6,9 @@ body {
 
 h1 {
 	font-family: 'Wellfleet', times, serif;
-	font-size: 100%;
+	font-size: 300%;
 	color: #FFFAFA;
+	text-align: center;
 	}
 
 #page1, #page2 {
