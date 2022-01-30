@@ -1,8 +1,8 @@
-var table = prompt("Please enter your value here:");             // Unit of table
-var operator = 'multiplication'; // Type of calculation
-var i = 1;                 // Set counter to 1
-var msg = '<h2>Multiplication Table</h2>';              // Message
-var el = document.getElementById('blackboard');
+let table = window.prompt("Please enter your value here:");             // Unit of table
+let operator = 'multiplication'; // Type of calculation
+let i = 1;                 // Set counter to 1
+let msg = '<h2>Multiplication Table</h2>';              // Message
+let el = document.getElementById('blackboard');
 el.innerHTML = msg;
 
 if (operator === 'multiplication') {
