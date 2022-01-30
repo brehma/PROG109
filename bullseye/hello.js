@@ -1,4 +1,5 @@
-var table = prompt("Please enter your value:");             // Unit of table
+let myNumber = prompt("Please enter your value:");   // Unit of table
+var table = myNumber;             
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>';              // Message
