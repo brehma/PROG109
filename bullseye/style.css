@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Wellfleet);
 
 body {
+	font-family: 'Wellfleet', times, serif;
+	font-size: 100%;
+	color: #FFFAFA;
+	text-indent: 100%;
 	background-color: #523620;
 	margin: 0px 0px 0px 0px;}
 
@@ -17,10 +21,6 @@ h1 {
 	padding: 10px;
 	min-width: 779px;}
 #page2 {
-	font-family: 'Wellfleet', times, serif;
-	font-size: 100%;
-	color: #FFFAFA;
-	text-indent: 100%;
 	height: 730px;}
 
 #answer {
