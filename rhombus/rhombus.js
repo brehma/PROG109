@@ -75,7 +75,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
   for (i=pHeight;i>0;i--){
     rLine +="<p>";
     //Create each line on the Rhombus
-    for(j=i;j<0;j++){
+    for(j=0;j<=i;j++){
 
       //Fill in left  every row spaces or blanks
       //rLine+="-"
@@ -91,7 +91,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
     }
   rLine +="</p>";
-   console.log(rLine);
+   console.log(rLine,"downLeft");
 
   //}
 
