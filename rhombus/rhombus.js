@@ -73,8 +73,8 @@ rLine +="<p>";
 //Create each line on the Rhombus
 for(j=i;j<0;j++){
   
-  \\Fill in left  every row spaces or blanks
-  \\rLine+="-"
+  //Fill in left  every row spaces or blanks
+  //rLine+="-"
   rLine +="<span class='space'>" + pSymbol +"</span>";
   
 //Is the position even or odd so we change the color
