@@ -79,7 +79,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
       //Fill in left  every row spaces or blanks
       //rLine+="-"
-      rLine +="<span class='space'>" + pSymbol +"</span>";
+      //rLine +="<span class='space'>" + pSymbol +"</span>";
 
       //Is the position even or odd so we change the color
       if (j%2)
@@ -91,7 +91,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
     }
   rLine +="</p>";
-   console.log(rLine,"downLeft");
+   console.log("downLeft");
 
   //}
 
@@ -121,4 +121,4 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
   }
 
   document.getElementById("downRight").innerHTML = rLine;
-}
+ }
