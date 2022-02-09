@@ -26,12 +26,26 @@
      var atpos = userEmail.indexOf("@");
      var dotpos = userEmail.lastIndexOf(".");
      if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-        errorMessages += "<p>Invalid Email</p>";
+        errorMessages += "<p>Invalid Email</p>";}
      else
        validEmail = true;
        document.getElementById("errorMessages").innerHTML = errorMessages;
-        return (validEmail);
-  
-  
-  //<button type="submit" formaction="thankyou.html">Submit</button>
-			</form>
+        return (validEmail);  
+	
+     //Phone Number
+     var phone = document.getElementById("phone").value;
+	if (isNaN(phone) || phone.lenght >15 || phone===null || phone==="")
+	   errorMessages += "<p>Invalid Phone Number</p>";}
+	else
+	validPhone = true;
+        document.getElementById("errorMessages").innerHTML = errorMessages;
+        return (validPhone);  
+	  
+	//You can also do pattern matching by using the match() method from the string object
+	var numbers=/^[0-9]+$/;
+	if (phone===null||phone ==="" ||phone.length>15|| !phone.match(numbers))
+	//...
+	else
+	//...
+  }
+</form>
