@@ -15,8 +15,13 @@ h1 {
 	height: 596px;
 	padding: 10px;
 	min-width: 779px;}
+
 #page2 {
 	height: 730px;}
+
+#old teacher {
+	float:right;
+	margin:135px 30px 0px 0px;}
 
 #answer {
 	border: 12px double #fff;
@@ -25,7 +30,8 @@ h1 {
 	padding: 20px;
 	margin: 70px auto 10px auto;
 	width: 250px;
-	text-align: center;}
+	text-align: center;
+}
 
 #blackboard {
 	background-color: #425a5a;
