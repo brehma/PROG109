@@ -19,9 +19,20 @@ h1 {
 #page2 {
 	height: 730px;}
 
+#sheep {
+    	float:left;
+    	margin:135px 30px 0px 0px;
+    	text-align: left;}
+
 #old teacher {
-	float:right;
-	margin:135px 30px 0px 0px;}
+	float:left;
+	margin:135px 30px 0px 0px;
+	text-align: left;}
+
+#bullseye{
+	float:left;
+	margin:135px 30px 0px 0px;
+	text-align: top;}
 
 #answer {
 	border: 12px double #fff;
