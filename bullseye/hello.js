@@ -5,7 +5,7 @@ let myNumber = prompt("Please enter your value:")   // Unit of table
 var table = myNumber;
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
-var msg = '';              // Message
+var msg = '<h2>Multiplcation Table</h2>';              // Message
 
 if (operator === 'addition') {
   // Do addition
