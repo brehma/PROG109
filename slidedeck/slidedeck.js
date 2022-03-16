@@ -1,8 +1,8 @@
 var myImages =["./images/Image 1.jpg", 
-               "http://cdn3.theeventchronicle.com/wp-content/uploads/2014/09/dolphin-intelligence.jpg",
-               "http://www.liveanimalslist.com/mammals/images/dolphin-in-water.jpg",
-               "http://i1151.photobucket.com/albums/o632/bowietvc15/Bowietvc15-2/DolphinsWallpaper2.jpg",
-               "http://i1151.photobucket.com/albums/o632/bowietvc15/funny%20gifs/animal-art-cute-dolphin-nature-Favimcom-311780.jpg"];
+               "./images/Image 2.jpg",
+               "./images/Image 3.jpg",
+               "./images/Image 4.jpg",
+               "./images/Image 5.jpg"];
 
 
 var captionImages =["Laugh","Love","Lunch","Happiness","Family"];
