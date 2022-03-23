@@ -17,13 +17,13 @@ function validateForm(){
         return false;
 };
 
-FirstName.addEventListener('blur', firstName, false);
+FirstName.addEventListener('blur', fname, false);
 function firstName(){
     //1) Create variable
     var validFirstname=false;
 
     //2) read value from HTML
-    var firstname = document.getElementById("FirstName").value;
+    var firstname = document.getElementById("firstname").value;
     var errorMessages = "";
 
     //3) Do validation
